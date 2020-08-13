@@ -6,6 +6,7 @@ import java.util.stream.Collectors;
 public class Main {
     public static void removeOggy(ArrayList<String> names) {
         Iterator i=names.iterator();
+        String  str="";
         while(i.hasNext()){
             str=(String) i.next();
             if(str.startsWith("oggy")){
